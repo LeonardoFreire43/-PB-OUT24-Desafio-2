@@ -1,0 +1,34 @@
+.homepage-child {
+    position: absolute;
+    top: 3615px;
+    left: calc(50% - 196px);
+    background-color: #f0f0f0;
+    width: 392px;
+    height: 846px;
+}
+
+.sign-up-now {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.sign-up-and-container {
+    position: relative;
+}
+
+.sign-up-and-get-20-off-to-you-wrapper {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 195px);
+    background-color: #000;
+    width: 390px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 0px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #fff;
+}
