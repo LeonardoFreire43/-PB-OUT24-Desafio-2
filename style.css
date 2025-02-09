@@ -1,23 +1,19 @@
 .homepage-child {
     position: absolute;
     top: 3615px;
-    left: calc(50% - 196px);
     background-color: #f0f0f0;
     width: 392px;
     height: 846px;
 }
-
 .sign-up-now {
     text-decoration: underline;
     font-weight: 500;
 }
-
 .sign-up-and-container {
     position: relative;
 }
-
 .sign-up-and-get-20-off-to-you-wrapper {
-    position: absolute;
+    position: left;
     top: 0px;
     left: calc(50% - 195px);
     background-color: #000;
@@ -32,3 +28,912 @@
     font-size: 12px;
     color: #fff;
 }
+.shopco {
+    position: absolute;
+    top: 57px;
+    left: 56px;
+    font-size: 25.2px;
+    font-family: 'Integral CF';
+}
+.frame-icon {
+    position: absolute;
+    top: 54px;
+    left: 16px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.frame-icon1 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-parent {
+    position: absolute;
+    top: 54px;
+    left: 278px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.homepage-item {
+    position: absolute;
+    top: 98px;
+    left: 0px;
+    background-color: #f2f0f1;
+    width: 390px;
+    height: 853px;
+}
+.find-clothes-that {
+    position: absolute;
+    top: 138px;
+    left: 16px;
+    font-size: 36px;
+    line-height: 34px;
+    display: flex;
+    font-family: 'Integral CF';
+    align-items: center;
+    width: 315px;
+}
+.browse-through-our {
+    position: absolute;
+    top: 251px;
+    left: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    width: 358px;
+}
+.shop-now {
+    position: relative;
+    font-weight: 500;
+}
+.shop-now-wrapper {
+    position: absolute;
+    top: 325px;
+    left: 16px;
+    border-radius: 62px;
+    background-color: #000;
+    width: 358px;
+    height: px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 54px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+}
+.international-brands {
+    position: relative;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: -6px;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frame-child {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 53px;
+}
+.frame-group {
+    position: absolute;
+    top: 397px;
+    left: 53px;
+    width: 278px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 24px;
+}
+.homepage-inner {
+    position: absolute;
+    top: 503px;
+    left: 0px;
+    width: 390px;
+    height: 448px;
+    object-fit: cover;
+}
+.container{
+    position: absolute;
+    top: 460px;
+    left: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+.vector-icon,
+.vector-icon1,
+.group-icon,
+.group-icon1 {
+    position: absolute;
+    max-width: none;
+    max-height: none;
+}
+.vector-icon {
+    top: 655px; 
+    left: 30px;
+    width: 45px;
+    height: 45px;
+}
+
+.vector-icon1 {
+    top: 540px;
+    left: 290px;
+    width: 75px;
+    height: 75px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 951px;
+    left: 0px;
+    background-color: #000;
+    width: 390px;
+    height: 146px;
+}
+.group-icon {
+    top: 971px;
+    left: 16px;
+    width: 120px;
+    height: 63.8px;
+}
+.zara-logo-1-1-icon {
+    position: absolute;
+    top: 990px;
+    left: 166.74px;
+    width: 63.8px;
+    height: 26.6px;
+    overflow: hidden;
+}
+.gucci-logo-1-1-icon {
+    position: absolute;
+    top: 990.7px;
+    left: 250.55px;
+    width: 109.4px;
+    height: 25.2px;
+    overflow: hidden;
+}
+.prada-logo-1-1-icon {
+    position: absolute;
+    top: 1037px;
+    left: 48px;
+    width: 127px;
+    height: 21px;
+    overflow: hidden;
+}
+.group-icon1 {
+    top: 998px;
+    left: 200px;
+    width: 130px;
+    height: 100px;
+}
+.new-arrivals {
+    position: absolute;
+    top: 1147px;
+    left: calc(50% - 134px);
+    font-size: 32px;
+    font-family: 'Integral CF';
+    text-align: center;
+}
+.top-selling {
+    position: absolute;
+    top: 1650px;
+    left: calc(50% - 115px);
+    font-size: 32px;
+    font-family: 'Integral CF';
+    text-align: center;
+}
+.our-happy-customers {
+    position: absolute;
+    top: 3148px;
+    left: calc(50% - 179px);
+    font-size: 32px;
+    line-height: 36px;
+    display: flex;
+    font-family: 'Integral CF';
+    align-items: center;
+    width: 286px;
+}
+.homepage-child1 {
+    position: absolute;
+    top: 1217px;
+    left: 16px;
+    border-radius: 13.42px;
+    width: 198px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.homepage-child2 {
+    position: absolute;
+    top: 1720px;
+    left: 16px;
+    border-radius: 13.42px;
+    width: 198px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.image-7-icon {
+    position: absolute;
+    top: -28px;
+    left: 13px;
+    width: 171px;
+    height: 256px;
+    object-fit: cover;
+}
+.image-7-wrapper {
+    position: absolute;
+    top: 1217px;
+    left: 230px;
+    border-radius: 13.42px;
+    background-color: #f0eeed;
+    width: 198px;
+    height: 200px;
+    overflow: hidden;
+}
+.homepage-child3 {
+    position: absolute;
+    top: 1720px;
+    left: 230px;
+    border-radius: 13.42px;
+    width: 198px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.frame-item {
+    width: 15.5px;
+    position: relative;
+    height: 15.5px;
+}
+.frame-child2 {
+    width: 7.4px;
+    position: relative;
+    height: 14px;
+}
+.star-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4.4px;
+}
+.span {
+    color: rgba(0, 0, 0, 0.6);
+}
+.frame-container {
+    position: absolute;
+    top: 1453.01px;
+    left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11px;
+    font-size: 12px;
+}
+.frame-div {
+    position: absolute;
+    top: 1956.01px;
+    left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11px;
+    font-size: 12px;
+}
+.frame-parent1 {
+    position: absolute;
+    top: 1453.01px;
+    left: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11px;
+    font-size: 12px;
+}
+.frame-parent2 {
+    position: absolute;
+    top: 1956.01px;
+    left: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11px;
+    font-size: 12px;
+}
+.shirt {
+    text-transform: lowercase;
+}
+.t-shirt-with-tape-container {
+    position: absolute;
+    top: 1427.01px;
+    left: 16px;
+    font-size: 16px;
+}
+.vertical-striped-shirt {
+    position: absolute;
+    top: 1930.01px;
+    left: 16px;
+    font-size: 16px;
+}
+.skinny-fit-jeans-container {
+    position: absolute;
+    top: 1427.01px;
+    left: 230px;
+    font-size: 16px;
+}
+.courage-graphic-t-short {
+    position: absolute;
+    top: 1930.01px;
+    left: 230px;
+    font-size: 16px;
+}
+.b3 {
+    position: absolute;
+    top: 1473px;
+    left: 16px;
+    font-size: 20px;
+}
+.b4 {
+    position: absolute;
+    top: 1473px;
+    left: 230px;
+    font-size: 20px;
+}
+.b5 {
+    position: absolute;
+    top: 1976px;
+    left: 230px;
+    font-size: 20px;
+}
+.b6 {
+    position: absolute;
+    top: 1473px;
+    left: 286px;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.4);
+}
+.wrapper {
+    position: absolute;
+    top: 1476px;
+    left: 342px;
+    border-radius: 62px;
+    background-color: rgba(255, 51, 51, 0.1);
+    width: 42px;
+    height: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #ff3333;
+}
+.b8 {
+    position: relative;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.4);
+}
+.frame {
+    width: 42px;
+    border-radius: 62px;
+    background-color: rgba(255, 51, 51, 0.1);
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #ff3333;
+}
+.parent1 {
+    position: absolute;
+    top: 1976px;
+    left: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-size: 20px;
+}
+.view-all-wrapper {
+    position: absolute;
+    top: 1524px;
+    left: calc(50% - 179px);
+    border-radius: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 358px;
+    height: 46px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 54px;
+}
+.view-all-container {
+    position: absolute;
+    top: 2027px;
+    left: calc(50% - 179px);
+    border-radius: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 358px;
+    height: 46px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 54px;
+}
+.line-div {
+    position: absolute;
+    top: 1609.5px;
+    left: calc(50% - 179.5px);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 359px;
+    height: 1px;
+}
+.browse-by-dress {
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 123px);
+    font-size: 32px;
+    line-height: 36px;
+    display: flex;
+    font-family: 'Integral CF';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 246px;
+}
+.image-11-icon {
+    position: absolute;
+    top: -75px;
+    left: -171px;
+    width: 572px;
+    height: 383px;
+    object-fit: contain;
+}
+.casual {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+}
+.image-11-parent {
+    position: absolute;
+    top: 140px;
+    left: calc(50% - 155px);
+    border-radius: 20px;
+    background-color: #fff;
+    width: 310px;
+    height: 190px;
+    overflow: hidden;
+}
+.image-13-icon {
+    position: absolute;
+    top: -88px;
+    left: -17px;
+    width: 709px;
+    height: 472px;
+    object-fit: cover;
+}
+.image-13-parent {
+    position: absolute;
+    top: 346px;
+    left: calc(50% - 155px);
+    border-radius: 20px;
+    background-color: #fff;
+    width: 310px;
+    height: 190px;
+    overflow: hidden;
+}
+.image-12-icon {
+    position: absolute;
+    top: -82px;
+    left: 0px;
+    width: 389px;
+    height: 311px;
+    object-fit: cover;
+}
+.image-12-parent {
+    position: absolute;
+    top: 552px;
+    left: calc(50% - 155px);
+    border-radius: 20px;
+    background-color: #fff;
+    width: 310px;
+    height: 190px;
+    overflow: hidden;
+}
+.image-14-icon {
+    position: absolute;
+    top: -90px;
+    left: 70px;
+    width: 285px;
+    height: 425px;
+    object-fit: cover;
+}
+.image-14-parent {
+    position: absolute;
+    top: 758px;
+    left: calc(50% - 155px);
+    border-radius: 20px;
+    background-color: #fff;
+    width: 310px;
+    height: 190px;
+    overflow: hidden;
+}
+.browse-by-dress-style-parent {
+    position: absolute;
+    top: 2123px;
+    left: 16px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    width: 358px;
+    height: 975px;
+    overflow: hidden;
+    font-size: 24px;
+}
+.arrow-down-bold-1-icon {
+    position: absolute;
+    top: 3196px;
+    left: 350px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.arrow-down-bold-2-icon {
+    position: absolute;
+    top: 3196px;
+    left: 310px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.frame-child16 {
+    width: 19.2px;
+    position: relative;
+    height: 19.2px;
+}
+.star-parent2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5.5px;
+}
+.sarah-m {
+    position: relative;
+    line-height: 22px;
+}
+.frame-icon4 {
+    width: 19px;
+    position: relative;
+    height: 19px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.sarah-m-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.im-blown-away {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.frame-parent4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.frame-parent3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.frame-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.homepage-inner1 {
+    position: absolute;
+    top: 3244px;
+    left: 16px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 358px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 24px;
+    font-size: 16px;
+}
+.frame-icon5 {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-parent6 {
+    position: absolute;
+    top: 169px;
+    left: calc(50% - 155px);
+    border-radius: 62px;
+    background-color: #fff;
+    width: 311px;
+    height: 42px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    gap: 12px;
+}
+.subscribe-to-newsletter-wrapper {
+    position: absolute;
+    top: 223px;
+    left: 24px;
+    border-radius: 62px;
+    background-color: #fff;
+    width: 311px;
+    height: 42px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    color: #000;
+}
+.stay-upto-date {
+    position: absolute;
+    top: 32px;
+    left: 24px;
+    font-size: 32px;
+    line-height: 35px;
+    display: inline-block;
+    font-family: 'Integral CF';
+    color: #fff;
+    width: 297px;
+}
+.frame-parent5 {
+    position: absolute;
+    top: 3480px;
+    left: 16px;
+    border-radius: 20px;
+    background-color: #000;
+    width: 358px;
+    height: 293px;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.4);
+}
+.shopco1 {
+    position: absolute;
+    top: 3804.58px;
+    left: 16px;
+    font-size: 28.85px;
+    font-family: 'Integral CF';
+}
+.we-have-clothes {
+    position: absolute;
+    top: 3838.58px;
+    left: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    width: 357px;
+}
+.icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 28px;
+    height: 28px;
+}
+.icon1 {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    width: 28px;
+    height: 28px;
+}
+.icon2 {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    width: 28px;
+    height: 28px;
+}
+.icon3 {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    width: 28px;
+    height: 28px;
+}
+.social {
+    position: absolute;
+    top: 3898.58px;
+    left: 16px;
+    width: 148px;
+    height: 28px;
+}
+.help-menu {
+    position: relative;
+    letter-spacing: 3px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.about {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.blank-line {
+    margin: 0;
+}
+.about-features-works-container {
+    position: relative;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.help-menu-parent {
+    position: absolute;
+    top: 3951px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.about-features-works-container1 {
+    width: 121px;
+    position: relative;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+.help-menu-group {
+    position: absolute;
+    top: 4121px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.help-menu-container {
+    position: absolute;
+    top: 3951px;
+    left: 196px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.about-features-works-container3 {
+    width: 159px;
+    position: relative;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+.help-menu-parent1 {
+    position: absolute;
+    top: 4121px;
+    left: 196px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.homepage-child4 {
+    position: absolute;
+    top: 4306.5px;
+    left: calc(50% - 179.5px);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 359px;
+    height: 1px;
+}
+.all-rights-reserved {
+    position: absolute;
+    top: 4323px;
+    left: calc(50% - 134px);
+    color: rgba(0, 0, 0, 0.6);
+    text-align: right;
+}
+.badge-icon {
+    width: 40px;
+    position: relative;
+    border-radius: 4.61px;
+    height: 25.7px;
+}
+.badge-parent {
+    position: absolute;
+    top: 4358px;
+    left: calc(50% - 121px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10.3px;
+}
+.homepage {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 4461px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+    font-family: Satoshi;
+}
+
