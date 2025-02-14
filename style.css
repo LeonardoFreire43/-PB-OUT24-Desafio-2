@@ -879,7 +879,7 @@
     justify-content: flex-start;
     gap: 1rem; /* 16px / 16 */
 }
-.homepage-child4 {
+#mobile .homepage-child4 {
     position: relative;
     top: 270rem; /* 4320px / 16 */
     left: calc(50% - 10rem); /* 160px / 16 */
@@ -888,20 +888,20 @@
     width: 22.4375rem; /* 359px / 16 */
     height: 0.0625rem; /* 1px / 16 */
 }
-.all-rights-reserved {
+#mobile .all-rights-reserved {
     position: absolute;
     top: 275rem; /* 4400px / 16 */
     left: calc(50% - 7rem); /* 112px / 16 */
     color: rgba(0, 0, 0, 0.6);
     text-align: right;
 }
-.badge-icon {
+#mobile .badge-icon {
     width: 2.5rem; /* 40px / 16 */
     position: relative;
     border-radius: 0.2875rem; /* 4.61px / 16 */
     height: 1.91875rem; /* 30.7px / 16 */
 }
-.badge-parent {
+#mobile .badge-parent {
     position: absolute;
     top: 271.25rem; /* 4340px / 16 */
     left: calc(50% - 6.875rem); /* 110px / 16 */
@@ -912,7 +912,7 @@
     justify-content: flex-start;
     gap: 0.64375rem; /* 10.3px / 16 */
 }
-.homepage {
+#mobile .homepage {
     width: 100%;
     position: relative;
     background-color: #fff;
@@ -923,7 +923,7 @@
     color: #000;
     font-family: Satoshi;
 }
-.email-company {
+#mobile .email-company {
     position: absolute;
     right: calc(50% - 160px);
 }
