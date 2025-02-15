@@ -1,0 +1,930 @@
+/* Estilos gerais para o layout mobile */
+#mobile {
+    display: block;
+}
+
+#desktop {
+    display: none;
+}
+
+@media (min-width: 1025px) {
+    #mobile {
+        display: none;
+    }
+
+    #desktop {
+        display: block;
+    }
+}
+
+#mobile .homepage-child {
+    position: absolute;
+    top: 225.9375rem; /* 3615px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    background-color: #f0f0f0;
+    width: 24.375rem; /* 390px / 16 */
+    height: 53.3125rem; /* 853px / 16 */
+}
+#mobile .sign-up-now {
+    text-decoration: underline;
+    font-weight: 500;
+}
+#mobile .sign-up-and-container {
+    position: relative;
+}
+#mobile .sign-up-and-get-20-off-to-you-wrapper {
+    position: absolute;
+    top: 0rem; /* 0px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    background-color: #000;
+    width: 24.375rem; /* 390px / 16 */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5625rem 0rem; /* 9px / 16 */
+    box-sizing: border-box;
+    font-size: 0.75rem; /* 12px / 16 */
+    color: #fff;
+}
+#mobile .nav-bar {
+    display: flex;
+    position: absolute;
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+}
+#mobile .shopco {
+    position: absolute;
+    top: 3.375rem; /* 54px / 16 */
+    left: 3.5rem; /* 56px / 16 */
+    font-size: 1.575rem; /* 25.2px / 16 */
+    font-family: 'Integral CF';
+}
+#mobile .frame-icon {
+    position: absolute;
+    top: 3.375rem; /* 54px / 16 */
+    left: 1rem; /* 16px / 16 */
+    width: 1.5rem; /* 24px / 16 */
+    height: 1.5rem; /* 24px / 16 */
+    overflow: hidden;
+}
+#mobile .frame-icon1 {
+    width: 1.5rem; /* 24px / 16 */
+    position: relative;
+    height: 1.5rem; /* 24px / 16 */
+    overflow: hidden;
+    flex-shrink: 0;
+}
+#mobile .frame-parent {
+    position: absolute;
+    top: 3.375rem; /* 54px / 16 */
+    left: 17.375rem; /* 278px / 16 */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.75rem; /* 12px / 16 */
+}
+#mobile .homepage-item {
+    position: absolute;
+    top: 6.125rem; /* 98px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    background-color: #f2f0f1;
+    width: 24.375rem; /* 390px / 16 */
+    height: 53.3125rem; /* 853px / 16 */
+}
+#mobile .find-clothes-that {
+    position: absolute;
+    top: 8.625rem; /* 138px / 16 */
+    left: calc(50% - 10.625rem); /* 170px / 16 */
+    font-size: 2.25rem; /* 36px / 16 */
+    line-height: 2.125rem; /* 34px / 16 */
+    display: flex;
+    font-family: 'Integral CF';
+    align-items: center;
+    width: 19.6875rem; /* 315px / 16 */
+}
+#mobile .browse-through-our {
+    position: absolute;
+    top: 15.6875rem; /* 251px / 16 */
+    left: calc(50% - 10.625rem); /* 170px / 16 */
+    line-height: 1.25rem; /* 20px / 16 */
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    width: 22.375rem; /* 358px / 16 */
+}
+#mobile .shop-now {
+    position: relative;
+    font-weight: 500;
+}
+#mobile .shop-now-wrapper {
+    position: absolute;
+    top: 20.3125rem; /* 325px / 16 */
+    left: 1rem; /* 16px / 16 */
+    border-radius: 3.875rem; /* 62px / 16 */
+    background-color: #000;
+    left: calc(50% - 11.25rem); /* 180px / 16 */
+    width: 22.375rem; /* 358px / 16 */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3.375rem; /* 16px / 54px */
+    box-sizing: border-box;
+    font-size: 1rem; /* 16px / 16 */
+    color: #fff;
+}
+#mobile .international-brands {
+    position: relative;
+    font-size: 0.75rem; /* 12px / 16 */
+    line-height: 1.375rem; /* 22px / 16 */
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: -0.375rem; /* -6px / 16 */
+}
+#mobile .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#mobile .frame-child {
+    width: 0.0625rem; /* 1px / 16 */
+    position: relative;
+    border-right: 0.0625rem solid rgba(0, 0, 0, 0.1); /* 1px / 16 */
+    box-sizing: border-box;
+    height: 3.3125rem; /* 53px / 16 */
+}
+#mobile .frame-group {
+    position: absolute;
+    top: 24.8125rem; /* 397px / 16 */
+    left: calc(50% - 8.125rem); /* 130px / 16 */
+    width: 17.375rem; /* 278px / 16 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 1.5rem; /* 24px / 16 */
+}
+#mobile .homepage-inner {
+    position: absolute;
+    top: 31.4375rem; /* 503px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    width: 24.375rem; /* 390px / 16 */
+    height: 28rem; /* 448px / 16 */
+    object-fit: cover;
+}
+#mobile .container {
+    position: absolute;
+    top: 28.75rem; /* 460px / 16 */
+    left: calc(50% - 2.1875rem); /* 35px / 16 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.5rem; /* 24px / 16 */
+}
+#mobile .vector-icon {
+    position: absolute;
+    top: 40.625rem; /* 650px / 16 */
+    left: calc(50% - 10.3125rem); /* 165px / 16 */
+    height: 2.75rem; /* 44px / 16 */
+}
+#mobile .vector-icon1 {
+    position: absolute;
+    top: 33.75rem; /* 540px / 16 */
+    right: calc(50% - 10.625rem); /* 170px / 16 */
+    height: 4.75rem; /* 76px / 16 */
+}
+#mobile .rectangle-div {
+    position: absolute;
+    top: 59.4375rem; /* 951px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    background-color: #000;
+    width: 24.375rem; /* 390px / 16 */
+    height: 9.125rem; /* 146px / 16 */
+}
+#mobile .group-icon {
+    position: absolute;
+    top: 61.875rem; /* 990px / 16 */
+    left: calc(50% - 10.625rem); /* 170px / 16 */
+    height: 1.45625rem; /* 23.3px / 16 */
+    overflow: hidden;
+}
+#mobile .zara-logo-1-1-icon {
+    position: absolute;
+    top: 61.875rem; /* 990px / 16 */
+    left: calc(50% - 1.875rem); /* 30px / 16 */
+    height: 1.6625rem; /* 26.6px / 16 */
+    overflow: hidden;
+}
+#mobile .gucci-logo-1-1-icon {
+    position: absolute;
+    top: 61.918125rem; /* 990.7px / 16 */
+    right: calc(50% - 10.625rem); /* 170px / 16 */
+    height: 1.575rem; /* 25.2px / 16 */
+    overflow: hidden;
+}
+#mobile .prada-logo-1-1-icon {
+    position: absolute;
+    top: 64.8125rem; /* 1037px / 16 */
+    left: calc(50% - 9.375rem); /* 150px / 16 */
+    width: 7.9375rem; /* 127px / 16 */
+    height: 1.3125rem; /* 21px / 16 */
+    overflow: hidden;
+}
+#mobile .group-icon1 {
+    position: absolute;
+    top: 62.375rem; /* 998px / 16 */
+    right: calc(50% - 8.75rem); /* 140px / 16 */
+    width: 8.125rem; /* 130px / 16 */
+    height: 6.25rem; /* 100px / 16 */
+}
+#mobile .new-arrivals {
+    position: absolute;
+    top: 71.25rem; /* 1140px / 16 */
+    right: calc(50% - 8.125rem); /* 130px / 16 */
+    font-size: 2rem; /* 32px / 16 */
+    font-family: 'Integral CF';
+    text-align: center;
+}
+#mobile .top-selling {
+    position: absolute;
+    top: 101.25rem; /* 1620px / 16 */
+    right: calc(50% - 4.375rem); /* 70px / 16 */
+    font-size: 2rem; /* 32px / 16 */
+    font-family: 'Integral CF';
+    text-align: center;
+}
+#mobile .our-happy-customers {
+    position: absolute;
+    top: 195rem; /* 3120px / 16 */
+    left: calc(50% - 11rem); /* 176px / 16 */
+    font-size: 2rem; /* 32px / 16 */
+    line-height: 2.25rem; /* 36px / 16 */
+    display: flex;
+    font-family: 'Integral CF';
+    align-items: center;
+    width: 17.875rem; /* 286px / 16 */
+}
+#mobile .homepage-child1 {
+    position: absolute;
+    top: 76.0625rem; /* 1217px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    border-radius: 0.8375rem; /* 13.42px / 16 */
+    background-color: #f0eeed;
+    width: 12.375rem; /* 198px / 16 */
+    height: 12.5rem; /* 200px / 16 */
+    overflow: hidden;
+}
+#mobile .homepage-child2 {
+    position: absolute;
+    top: 107.5rem; /* 1720px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    border-radius: 0.8375rem; /* 13.42px / 16 */
+    width: 12.375rem; /* 198px / 16 */
+    height: 12.5rem; /* 200px / 16 */
+    overflow: hidden;
+    object-fit: cover;
+}
+#mobile .image-7-wrapper {
+    position: absolute;
+    top: 76.0625rem; /* 1217px / 16 */
+    right: calc(50% - 13.0625rem); /* 209px / 16 */
+    border-radius: 0.8375rem; /* 13.42px / 16 */
+    background-color: #f0eeed;
+    width: 12.375rem; /* 198px / 16 */
+    height: 12.5rem; /* 200px / 16 */
+    overflow: hidden;
+}
+#mobile .image-7-icon {
+    position: absolute;
+    top: -1.75rem; /* -28px / 16 */
+    left: 0.8125rem; /* 13px / 16 */
+    width: 10.6875rem; /* 171px / 16 */
+    height: 16rem; /* 256px / 16 */
+    object-fit: cover;
+}
+#mobile .homepage-child3 {
+    position: absolute;
+    top: 107.5rem; /* 1720px / 16 */
+    right: calc(50% - 13.0625rem); /* 209px / 16 */
+    border-radius: 0.8375rem; /* 13.42px / 16 */
+    width: 12.375rem; /* 198px / 16 */
+    height: 12.5rem; /* 200px / 16 */
+    overflow: hidden;
+    object-fit: cover;
+}
+#mobile .frame-container {
+    position: absolute;
+    top: 90.8125625rem; /* 1453.01px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6875rem; /* 11px / 16 */
+    font-size: 0.75rem; /* 12px / 16 */
+}
+#mobile .star-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.275rem; /* 4.4px / 16 */
+}
+#mobile .frame-item {
+    width: 0.96875rem; /* 15.5px / 16 */
+    position: relative;
+    height: 0.96875rem; /* 15.5px / 16 */
+}
+#mobile .frame-child2 {
+    width: 0.4625rem; /* 7.4px / 16 */
+    position: relative;
+    height: 0.875rem; /* 14px / 16 */
+}
+#mobile .frame-div {
+    position: absolute;
+    top: 122.250625rem; /* 1956.01px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6875rem; /* 11px / 16 */
+    font-size: 0.75rem; /* 12px / 16 */
+}
+#mobile .frame-parent1 {
+    position: absolute;
+    top: 90.8125625rem; /* 1453.01px / 16 */
+    right: calc(50% - 7.1875rem); /* 115px / 16 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6875rem; /* 11px / 16 */
+    font-size: 0.75rem; /* 12px / 16 */
+}
+#mobile .frame-parent2 {
+    position: absolute;
+    top: 122.250625rem; /* 1956.01px / 16 */
+    right: calc(50% - 7.4375rem); /* 119px / 16 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6875rem; /* 11px / 16 */
+    font-size: 0.75rem; /* 12px / 16 */
+}
+#mobile .t-shirt-with-tape-container {
+    position: absolute;
+    top: 89.1875625rem; /* 1427.01px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    font-size: 1rem; /* 16px / 16 */
+}
+#mobile .vertical-striped-shirt {
+    position: absolute;
+    top: 120.625625rem; /* 1930.01px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    font-size: 1rem; /* 16px / 16 */
+}
+#mobile .skinny-fit-jeans-container {
+    position: absolute;
+    top: 89.1875625rem; /* 1427.01px / 16 */
+    right: calc(50% - 7.8125rem); /* 125px / 16 */
+    font-size: 1rem; /* 16px / 16 */
+}
+#mobile .courage-graphic-t-short {
+    position: absolute;
+    top: 120.625625rem; /* 1930.01px / 16 */
+    right: calc(50% - 11.25rem); /* 180px / 16 */
+    font-size: 1rem; /* 16px / 16 */
+}
+#mobile .b3 {
+    position: absolute;
+    top: 92.0625rem; /* 1473px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    font-size: 1.25rem; /* 20px / 16 */
+}
+#mobile .b4 {
+    position: absolute;
+    top: 92.0625rem; /* 1473px / 16 */
+    right: calc(50% - 3.125rem); /* 50px / 16 */
+    font-size: 1.25rem; /* 20px / 16 */
+}
+#mobile .b5 {
+    position: absolute;
+    top: 123.5rem; /* 1976px / 16 */
+    right: calc(50% - 2.875rem); /* 46px / 16 */
+    font-size: 1.25rem; /* 20px / 16 */
+}
+#mobile .b6 {
+    position: absolute;
+    top: 92.0625rem; /* 1473px / 16 */
+    right: calc(50% - 5.9375rem); /* 95px / 16 */
+    font-size: 1.25rem; /* 20px / 16 */
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.4);
+}
+#mobile .wrapper {
+    position: absolute;
+    top: 92.25rem; /* 1476px / 16 */
+    right: calc(50% - 8.875rem); /* 142px / 16 */
+    border-radius: 3.875rem; /* 62px / 16 */
+    background-color: rgba(255, 51, 51, 0.1);
+    width: 2.625rem; /* 42px / 16 */
+    height: 1.25rem; /* 20px / 16 */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.375rem 0.875rem; /* 6px / 14px */
+    box-sizing: border-box;
+    font-size: 0.625rem; /* 10px / 16 */
+    color: #ff3333;
+}
+#mobile .parent1 {
+    position: absolute;
+    top: 123.5rem; /* 1976px / 16 */
+    left: calc(50% - 12.1875rem); /* 195px / 16 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3125rem; /* 5px / 16 */
+    font-size: 1.25rem; /* 20px / 16 */
+}
+#mobile .b8 {
+    position: relative;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.4);
+}
+#mobile .frame {
+    width: 2.625rem; /* 42px / 16 */
+    border-radius: 3.875rem; /* 62px / 16 */
+    background-color: rgba(255, 51, 51, 0.1);
+    height: 1.25rem; /* 20px / 16 */
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.375rem 0.875rem; /* 6px / 14px */
+    box-sizing: border-box;
+    font-size: 0.625rem; /* 10px / 16 */
+    color: #ff3333;
+}
+#mobile .view-all-wrapper {
+    position: absolute;
+    top: 95rem; /* 1520px / 16 */
+    left: calc(50% - 10.875rem); /* 174px / 16 */
+    border-radius: 3.875rem; /* 62px / 16 */
+    border: 0.0625rem solid rgba(0, 0, 0, 0.1); /* 1px / 16 */
+    box-sizing: border-box;
+    width: 22.375rem; /* 358px / 16 */
+    height: 2.875rem; /* 46px / 16 */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3.375rem; /* 16px / 54px */
+}
+#mobile .view-all-container {
+    position: absolute;
+    top: 126.25rem; /* 2020px / 16 */
+    left: calc(50% - 10.875rem); /* 174px / 16 */
+    border-radius: 3.875rem; /* 62px / 16 */
+    border: 0.0625rem solid rgba(0, 0, 0, 0.1); /* 1px / 16 */
+    box-sizing: border-box;
+    width: 22.375rem; /* 358px / 16 */
+    height: 2.875rem; /* 46px / 16 */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3.375rem; /* 16px / 54px */
+}
+#mobile .line-div {
+    position: absolute;
+    top: 100rem; /* 1600px / 16 */
+    left: calc(50% - 10.875rem); /* 174px / 16 */
+    border-top: 0.0625rem solid rgba(0, 0, 0, 0.1); /* 1px / 16 */
+    box-sizing: border-box;
+    width: 22.4375rem; /* 359px / 16 */
+    height: 0.0625rem; /* 1px / 16 */
+}
+#mobile .browse-by-dress-style-parent {
+    position: absolute;
+    top: 132.6875rem; /* 2123px / 16 */
+    left: calc(50% - 11rem); /* 176px / 16 */
+    border-radius: 1.25rem; /* 20px / 16 */
+    background-color: #f0f0f0;
+    width: 22.375rem; /* 358px / 16 */
+    height: 60.9375rem; /* 975px / 16 */
+    overflow: hidden;
+    font-size: 1.5rem; /* 24px / 16 */
+}
+#mobile .browse-by-dress {
+    position: absolute;
+    top: 2.5rem; /* 40px / 16 */
+    left: calc(50% - 7.6875rem); /* 123px / 16 */
+    font-size: 2rem; /* 32px / 16 */
+    line-height: 2.25rem; /* 36px / 16 */
+    display: flex;
+    font-family: 'Integral CF';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 15.375rem; /* 246px / 16 */
+}
+#mobile .image-11-parent {
+    position: absolute;
+    top: 8.75rem; /* 140px / 16 */
+    left: calc(50% - 9.6875rem); /* 155px / 16 */
+    border-radius: 1.25rem; /* 20px / 16 */
+    background-color: #fff;
+    width: 19.375rem; /* 310px / 16 */
+    height: 11.875rem; /* 190px / 16 */
+    overflow: hidden;
+}
+#mobile .image-11-icon {
+    position: absolute;
+    top: -4.6875rem; /* -75px / 16 */
+    left: -10.6875rem; /* -171px / 16 */
+    width: 35.75rem; /* 572px / 16 */
+    height: 23.9375rem; /* 383px / 16 */
+    object-fit: contain;
+}
+#mobile .casual {
+    position: absolute;
+    top: 1rem; /* 16px / 16 */
+    left: 1.5rem; /* 24px / 16 */
+}
+#mobile .image-13-parent {
+    position: absolute;
+    top: 21.625rem; /* 346px / 16 */
+    left: calc(50% - 9.6875rem); /* 155px / 16 */
+    border-radius: 1.25rem; /* 20px / 16 */
+    background-color: #fff;
+    width: 19.375rem; /* 310px / 16 */
+    height: 11.875rem; /* 190px / 16 */
+    overflow: hidden;
+}
+#mobile .image-13-icon {
+    position: absolute;
+    top: -5.5rem; /* -88px / 16 */
+    left: -1.0625rem; /* -17px / 16 */
+    width: 44.3125rem; /* 709px / 16 */
+    height: 29.5rem; /* 472px / 16 */
+    object-fit: cover;
+}
+#mobile .image-12-parent {
+    position: absolute;
+    top: 34.5rem; /* 552px / 16 */
+    left: calc(50% - 9.6875rem); /* 155px / 16 */
+    border-radius: 1.25rem; /* 20px / 16 */
+    background-color: #fff;
+    width: 19.375rem; /* 310px / 16 */
+    height: 11.875rem; /* 190px / 16 */
+    overflow: hidden;
+}
+#mobile .image-12-icon {
+    position: absolute;
+    top: -5.125rem; /* -82px / 16 */
+    left: 0rem; /* 0px / 16 */
+    width: 24.3125rem; /* 389px / 16 */
+    height: 19.4375rem; /* 311px / 16 */
+    object-fit: cover;
+}
+#mobile .image-14-parent {
+    position: absolute;
+    top: 47.375rem; /* 758px / 16 */
+    left: calc(50% - 9.6875rem); /* 155px / 16 */
+    border-radius: 1.25rem; /* 20px / 16 */
+    background-color: #fff;
+    width: 19.375rem; /* 310px / 16 */
+    height: 11.875rem; /* 190px / 16 */
+    overflow: hidden;
+}
+#mobile .image-14-icon {
+    position: absolute;
+    top: -5.625rem; /* -90px / 16 */
+    left: 4.375rem; /* 70px / 16 */
+    width: 17.8125rem; /* 285px / 16 */
+    height: 26.5625rem; /* 425px / 16 */
+    object-fit: cover;
+}
+#mobile .arrow-down-bold-1-icon {
+    position: absolute;
+    top: 199.75rem; /* 3196px / 16 */
+    right: calc(50% - 11.5rem); /* 184px / 16 */
+    width: 1.5rem; /* 24px / 16 */
+    height: 1.5rem; /* 24px / 16 */
+    overflow: hidden;
+    object-fit: contain;
+}
+#mobile .arrow-down-bold-2-icon {
+    position: absolute;
+    top: 199.75rem; /* 3196px / 16 */
+    right: calc(50% - 9.75rem); /* 156px / 16 */
+    width: 1.5rem; /* 24px / 16 */
+    height: 1.5rem; /* 24px / 16 */
+    overflow: hidden;
+    object-fit: contain;
+}
+#mobile .homepage-inner1 {
+    position: absolute;
+    top: 202.75rem; /* 3244px / 16 */
+    right: calc(50% - 11.25rem); /* 180px / 16 */
+    border-radius: 1.25rem; /* 20px / 16 */
+    border: 0.0625rem solid rgba(0, 0, 0, 0.1); /* 1px / 16 */
+    box-sizing: border-box;
+    width: 22.375rem; /* 358px / 16 */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 1.5rem; /* 24px / 16 */
+    font-size: 1rem; /* 16px / 16 */
+}
+#mobile .frame-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+#mobile .frame-parent3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.75rem; /* 12px / 16 */
+}
+#mobile .star-parent2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.34375rem; /* 5.5px / 16 */
+}
+#mobile .frame-child16 {
+    width: 1.2rem; /* 19.2px / 16 */
+    position: relative;
+    height: 1.2rem; /* 19.2px / 16 */
+}
+#mobile .frame-parent4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem; /* 8px / 16 */
+}
+#mobile .sarah-m-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem; /* 4px / 16 */
+}
+#mobile .sarah-m {
+    position: relative;
+    line-height: 1.375rem; /* 22px / 16 */
+}
+#mobile .frame-icon4 {
+    width: 1.1875rem; /* 19px / 16 */
+    position: relative;
+    height: 1.1875rem; /* 19px / 16 */
+    overflow: hidden;
+    flex-shrink: 0;
+}
+#mobile .im-blown-away {
+    align-self: stretch;
+    position: relative;
+    font-size: 0.875rem; /* 14px / 16 */
+    line-height: 1.25rem; /* 20px / 16 */
+    color: rgba(0, 0, 0, 0.6);
+}
+#mobile .frame-parent5 {
+    position: absolute;
+    top: 217.5rem; /* 3480px / 16 */
+    right: calc(50% - 11.25rem); /* 180px / 16 */
+    border-radius: 1.25rem; /* 20px / 16 */
+    background-color: #000;
+    width: 22.375rem; /* 358px / 16 */
+    height: 18.3125rem; /* 293px / 16 */
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.4);
+}
+#mobile .frame-parent6 {
+    position: absolute;
+    top: 10.5625rem; /* 169px / 16 */
+    left: calc(50% - 9.6875rem); /* 155px / 16 */
+    border-radius: 3.875rem; /* 62px / 16 */
+    background-color: #fff;
+    width: 19.4375rem; /* 311px / 16 */
+    height: 2.625rem; /* 42px / 16 */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem; /* 12px / 16px */
+    box-sizing: border-box;
+    gap: 0.75rem; /* 12px / 16 */
+}
+#mobile .frame-icon5 {
+    width: 1.25rem; /* 20px / 16 */
+    position: relative;
+    height: 1.25rem; /* 20px / 16 */
+    overflow: hidden;
+    flex-shrink: 0;
+}
+#mobile .subscribe-to-newsletter-wrapper {
+    position: absolute;
+    top: 13.9375rem; /* 223px / 16 */
+    left: 1.5rem; /* 24px / 16 */
+    border-radius: 3.875rem; /* 62px / 16 */
+    background-color: #fff;
+    width: 19.4375rem; /* 311px / 16 */
+    height: 2.625rem; /* 42px / 16 */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1rem; /* 12px / 16px */
+    box-sizing: border-box;
+    color: #000;
+}
+#mobile .stay-upto-date {
+    position: absolute;
+    top: 2rem; /* 32px / 16 */
+    left: 1.5rem; /* 24px / 16 */
+    font-size: 2rem; /* 32px / 16 */
+    line-height: 2.1875rem; /* 35px / 16 */
+    display: inline-block;
+    font-family: 'Integral CF';
+    color: #fff;
+    width: 18.5625rem; /* 297px / 16 */
+}
+#mobile .email-company {
+    position: absolute;
+    right: calc(50% - 160px);
+}
+#mobile .shopco1 {
+    position: absolute;
+    top: 3790px;
+    left: calc(50% - 160px);
+    font-size: 1.803125rem; 
+    font-family: 'Integral CF';
+}
+#mobile .we-have-clothes {
+    position: absolute;
+    top: 3828.58px;
+    left: 1.0625rem; /* 17px / 16 */
+    line-height: 1.25rem; /* 20px / 16 */
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    width: 22.3125rem; /* 357px / 16 */
+}
+#mobile .social {
+    position: absolute;
+    top: 3902.58px;
+    left: 1rem; /* 16px / 16 */
+    width: 9.25rem; /* 148px / 16 */
+    height: 1.75rem; /* 28px / 16 */
+}
+#mobile .icon {
+    position: absolute;
+    top: 0rem; /* 0px / 16 */
+    left: -0.8125rem; /* -13px / 16 */
+    width: 10rem; /* 160px / 16 */
+    height: 1.75rem; /* 28px / 16 */
+}
+#mobile .help-menu-parent {
+    position: absolute;
+    top: 246.9375rem; /* 3951px / 16 */
+    left: 1rem; /* 16px / 16 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem; /* 16px / 16 */
+}
+#mobile .help-menu {
+    position: relative;
+    letter-spacing: 3px; /* 3px / 16 */
+    line-height: 10px; /* 18px / 16 */
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#mobile .about-features-works-container {
+    position: relative;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);;
+}
+#mobile .help-menu-group {
+    position: absolute;
+    top: 4120px; /* 4121px / 16 */
+    left: 1rem; /* 16px / 16 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem; /* 16px / 16 */
+}
+#mobile .about-features-works-container1 {
+    width: 7.5625rem; /* 121px / 16 */
+    position: relative;
+    line-height: 1rem; /* 16px / 16 */
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+#mobile .help-menu-container {
+    position: absolute;
+    top: 246.9375rem; /* 3951px / 16 */
+    left: 12.25rem; /* 196px / 16 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem; /* 16px / 16 */
+}
+#mobile .about-features-works-container3 {
+    width: 9.9375rem; /* 159px / 16 */
+    position: relative;
+    line-height: 1rem; /* 16px / 16 */
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+#mobile .help-menu-parent1 {
+    position: absolute;
+    top: 257.5625rem; /* 4121px / 16 */
+    left: 12.25rem; /* 196px / 16 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem; /* 16px / 16 */
+}
+#mobile .homepage-child4 {
+    position: relative;
+    top: 270rem; /* 4320px / 16 */
+    left: calc(50% - 10rem); /* 160px / 16 */
+    border-top: 0.0625rem solid rgba(0, 0, 0, 0.1); /* 1px / 16 */
+    box-sizing: border-box;
+    width: 22.4375rem; /* 359px / 16 */
+    height: 0.0625rem; /* 1px / 16 */
+}
+#mobile .all-rights-reserved {
+    position: absolute;
+    top: 275rem; /* 4400px / 16 */
+    left: calc(50% - 7rem); /* 112px / 16 */
+    color: rgba(0, 0, 0, 0.6);
+    text-align: right;
+}
+#mobile .badge-icon {
+    width: 2.5rem; /* 40px / 16 */
+    position: relative;
+    border-radius: 0.2875rem; /* 4.61px / 16 */
+    height: 1.91875rem; /* 30.7px / 16 */
+}
+#mobile .badge-parent {
+    position: absolute;
+    top: 271.25rem; /* 4340px / 16 */
+    left: calc(50% - 6.875rem); /* 110px / 16 */
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0.64375rem; /* 10.3px / 16 */
+}
+#mobile .homepage {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 278.8125rem; /* 4461px / 16 */
+    overflow: hidden;
+    text-align: left;
+    font-size: 0.875rem; /* 14px / 16 */
+    color: #000;
+    font-family: Satoshi;
+}
+#mobile .email-company {
+    position: absolute;
+    right: calc(50% - 160px);
+}
+
