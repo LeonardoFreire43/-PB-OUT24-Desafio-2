@@ -617,11 +617,13 @@
                 <b id="desktop" class="stay-upto-date">STAY UPTO DATE ABOUT OUR LATEST OFFERS</b>
                 <div id="desktop" class="frame-parent19">
                     <div id="desktop" class="frame-parent20">
-                        <img id="desktop" class="frame-icon2" alt="" src="images/FRAMESDESKTOP/Email-desktop.svg">
-                        <div id="desktop" class="shop">Enter your email address</div>
-                    </div>
-                    <div id="desktop" class="subscribe-to-newsletter-wrapper">
-                        <div id="desktop" class="shop-now">Subscribe to Newsletter</div>
+                        <div class="newsletter-container">
+                            <div class="input-wrapper">
+                                <img id="desktop" class="frame-icon2" alt="" src="images/FRAMESDESKTOP/Email-desktop.svg">
+                                <input type="email" id="email" class="email-input" placeholder="Enter your email address">
+                            </div>
+                            <button id="submit" class="subscribe-button">Subscribe to Newsletter</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -694,8 +696,12 @@
             <div id="desktop" class="all-rights-reserved">Shop.co © 2000-2023, All Rights Reserved</div>
         </div>
     </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p id="popup-message"></p>
+        </div>
     </div>
-    </div>
+    <script src="app.js"></script>
 </body>
-
 </html>
