@@ -203,7 +203,7 @@
     top: 59.4375rem; /* 951px / 16 */
     left: calc(50% - 12.1875rem); /* 195px / 16 */
     background-color: #000;
-    width: 100%; /* 390px / 16 */
+    width: 390px; /* 390px / 16 */
     height: 9.125rem; /* 146px / 16 */
 }
 #mobile .group-icon {
@@ -824,6 +824,83 @@
 #mobile .help-menu {
     position: relative;
     font-size: 14px;
+    top: -20px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Satoshi;
+    color: #000;
+    text-align: left;
+}
+#mobile .about{
+    position: absolute;
+    top: 3px
+}
+
+#mobile .features{
+    position: absolute;
+    top: 32px
+}
+
+#mobile .works{
+    position: absolute;
+    top: 61px
+}
+
+#mobile .custumer{
+    position: absolute;
+    top: 3px;
+}
+
+#mobile .terms{
+    position: absolute;
+    top: 61px;
+}
+#mobile .delivery{
+    position: absolute;
+    top: 32px;
+}
+#mobile .career{
+    position: absolute;
+    top: 91px;
+}
+#mobile .privacy{
+    position: absolute;
+    top: 91px;
+}
+#mobile .account{
+    position: absolute;
+    top: -5px;
+}
+#mobile .orders{
+    position: absolute;
+    top: 65px;
+}
+#mobile .payment{   
+    position: absolute;
+    top: 100px;
+}
+#mobile .free{
+    position: absolute;
+    top: -39px;
+}
+#mobile .dev{
+    position: absolute;
+    top: -4px;
+}
+#mobile .how{
+    position: absolute;
+    top: 33px;
+}
+#mobile .youtube{
+    position: absolute;
+    top: 68px;
+}
+#mobile .help-menu1{
+    position: absolute;
+    font-size: 16px;
+    top: -12px;
     letter-spacing: 3px;
     line-height: 18px;
     text-transform: uppercase;
@@ -834,7 +911,7 @@
 }
 #mobile .about-features-works-container {
     position: relative;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 16px;
     font-family: Satoshi;
     color: rgba(0, 0, 0, 0.6);
@@ -843,7 +920,7 @@
 
 #mobile .help-menu-group {
     position: absolute;
-    top: 4120px;
+    top: 4107px;
     left: 1rem; /* 16px / 16 */
     display: flex;
     flex-direction: column;
@@ -857,6 +934,7 @@
     line-height: 1rem; /* 16px / 16 */
     color: rgba(0, 0, 0, 0.6);
     display: inline-block;
+    font-size: 14px;
 
 }
 #mobile .help-menu-container {
@@ -879,7 +957,7 @@
 }
 #mobile .help-menu-parent1 {
     position: absolute;
-    top: 257.5625rem; /* 4121px / 16 */
+    top: 4107px; 
     left: 12.25rem; /* 196px / 16 */
     display: flex;
     flex-direction: column;
@@ -889,7 +967,7 @@
 }
 #mobile .homepage-child4 {
     position: relative;
-    top: 270rem; /* 4320px / 16 */
+    top: 4260px ;
     left: calc(50% - 10rem); /* 160px / 16 */
     border-top: 0.0625rem solid rgba(0, 0, 0, 0.1); /* 1px / 16 */
     box-sizing: border-box;
@@ -898,12 +976,14 @@
 }
 #mobile .all-rights-reserved {
     width: 269px;
-    position: relative;
+    position: absolute;
     font-size: 14px;
     font-family: Satoshi;
     color: rgba(0, 0, 0, 0.6);
     text-align: right;
     display: inline-block;
+    top: 4270px;
+    right: calc(50% - 135px);
     }
 #mobile .badge-icon {
     width: 2.5rem; /* 40px / 16 */
@@ -913,7 +993,7 @@
 }
 #mobile .badge-parent {
     position: absolute;
-    top: 271.25rem; /* 4340px / 16 */
+    top: 4300px;
     left: calc(50% - 6.875rem); /* 110px / 16 */
     display: flex;
     width: 100%;
