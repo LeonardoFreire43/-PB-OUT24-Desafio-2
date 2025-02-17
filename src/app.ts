@@ -1,3 +1,8 @@
+function validateEmail(email: string): boolean {
+    const re = /^[^\s@]+@[^\s@]+\.(com|net|org|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum)$/;
+    return re.test(email);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const emailInput = document.getElementById('email') as HTMLInputElement;
     const submitButton = document.getElementById('submit') as HTMLButtonElement;
@@ -24,9 +29,31 @@ document.addEventListener('DOMContentLoaded', () => {
             popup.style.display = 'none';
         }
     });
+});
 
-    function validateEmail(email: string): boolean {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return re.test(email);
+// Lógica para o layout mobile
+const mobileEmailInput = document.getElementById('mobile-email') as HTMLInputElement;
+const mobileSubmitButton = document.getElementById('mobile-submit') as HTMLButtonElement;
+const mobilePopup = document.getElementById('mobile-popup') as HTMLDivElement;
+const mobilePopupMessage = document.getElementById('mobile-popup-message') as HTMLParagraphElement;
+const mobileCloseButton = mobilePopup.querySelector('.close') as HTMLSpanElement;
+
+mobileSubmitButton.addEventListener('click', () => {
+    const email = mobileEmailInput.value;
+    if (validateEmail(email)) {
+        mobilePopupMessage.textContent = 'Email is valid';
+    } else {
+        mobilePopupMessage.textContent = 'Please enter a valid email address';
+    }
+    mobilePopup.style.display = 'block';
+});
+
+mobileCloseButton.addEventListener('click', () => {
+    mobilePopup.style.display = 'none';
+});
+
+window.addEventListener('click', (event) => {
+    if (event.target === mobilePopup) {
+        mobilePopup.style.display = 'none';
     }
 });

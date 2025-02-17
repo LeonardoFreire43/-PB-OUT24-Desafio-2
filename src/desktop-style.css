@@ -29,20 +29,20 @@
         height: 663px; /* 41.4375rem */
         object-fit: cover;
     }
-    #desktop .vector-icon {
+        #desktop .vector-icon {
         position: sticky;
-        top: 220px; /* 52.4375rem */
+        top: 220px;
         left: 1250px;
-        width: 91px; /* 5.6875rem */
-        height: 80px; /* 2.375rem */
+        width: 91px;
+        height: 80px;
         overflow: hidden;
     }
     #desktop .vector-icon1 {
         position: sticky;
-        top: 350px; /* 52.4375rem */
+        top: 350px;
         left: 750px;
-        width: 91px; /* 5.6875rem */
-        height: 56px; /* 2.375rem */
+        width: 91px;
+        height: 56px;
         overflow: hidden;
     }
     #desktop .sign-up-now {
@@ -265,7 +265,7 @@
     #desktop .new-arrivals1 {
         position: absolute;
         top: 991px; /* 61.9375rem */
-        left: 555px; /* calc(50% - 12.625rem) */
+        left: calc(50% - 10.625rem);
         font-size: 48px; /* 3rem */
         font-family: 'Integral CF';
         text-align: center;
@@ -273,7 +273,7 @@
     #desktop .top-selling {
         position: absolute;
         top: 1728px; /* 108rem */
-        left: 640px; /* calc(50% - 10.875rem) */
+        left: calc(50% - 100px); /* calc(50% - 10.875rem) */
         font-size: 48px; /* 3rem */
         font-family: 'Integral CF';
         text-align: center;
@@ -308,7 +308,7 @@
     #desktop .frame-parent1 {
         position: absolute;
         top: 1453px; /* 90.8125rem */
-        left: 100px; /* 6.25rem */
+        left: calc(50% - 624px); /* 6.25rem */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -319,7 +319,7 @@
     #desktop .frame-parent2 {
         position: absolute;
         top: 1453px; /* 90.8125rem */
-        left: 415px; /* 25.9375rem */
+        left: calc(50% - 308px); /* 25.9375rem */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -330,7 +330,7 @@
     #desktop .frame-parent3 {
         position: absolute;
         top: 1453px; /* 90.8125rem */
-        left: 730px; /* 45.625rem */
+        left: calc(50% - -05px); /* 45.625rem */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -341,7 +341,7 @@
     #desktop .frame-parent4 {
         position: absolute;
         top: 1453px; /* 90.8125rem */
-        left: 1045px; /* 65.3125rem */
+        left: calc(50% - -321px); /* 65.3125rem */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -352,7 +352,7 @@
     #desktop .homepage-inner {
         position: absolute;
         top: 1104px; /* 69rem */
-        left: 100px; /* 6.25rem */
+        left: calc(50% - 623px); /* 6.25rem */
         border-radius: 20px; /* 1.25rem */
         width: 295px; /* 18.4375rem */
         height: 298px; /* 18.625rem */
@@ -362,7 +362,7 @@
     #desktop .image-8-icon {
         position: absolute;
         top: -51px; /* -3.1875rem */
-        left: 14px; /* 0.875rem */
+        left: calc(50% - 115px); /* 0.875rem */
         width: 268px; /* 16.75rem */
         height: 402px; /* 25.125rem */
         object-fit: cover;
@@ -370,7 +370,7 @@
     #desktop .image-8-wrapper {
         position: absolute;
         top: 1104px; /* 69rem */
-        left: 415px; /* 25.9375rem */
+        left: calc(50% - 310px); /* 25.9375rem */
         border-radius: 20px; /* 1.25rem */
         background-color: #f0eeed;
         width: 295px; /* 18.4375rem */
@@ -380,7 +380,7 @@
     #desktop .homepage-child1 {
         position: absolute;
         top: 1104px; /* 69rem */
-        left: 730px; /* 45.625rem */
+        left: calc(50% - -05px); /* 45.625rem */
         border-radius: 20px; /* 1.25rem */
         width: 295px; /* 18.4375rem */
         height: 298px; /* 18.625rem */
@@ -390,7 +390,7 @@
     #desktop .homepage-child2 {
         position: absolute;
         top: 1104px; /* 69rem */
-        left: 1045px; /* 65.3125rem */
+        left: calc(50% - -320px); /* 65.3125rem */
         border-radius: 20px; /* 1.25rem */
         width: 295px; /* 18.4375rem */
         height: 298px; /* 18.625rem */
@@ -403,27 +403,27 @@
     #desktop .t-shirt-with-tape-container {
         position: absolute;
         top: 1418px; /* 88.625rem */
-        left: 100px; /* 6.25rem */
+        left: calc(50% - 621px); /* 6.25rem */
     }
     #desktop .skinny-fit-jeans-container {
         position: absolute;
         top: 1418px; /* 88.625rem */
-        left: 415px; /* 25.9375rem */
+        left: calc(50% - 305px); /* 25.9375rem */
     }
     #desktop .checkered-shirt {
         position: absolute;
         top: 1418px; /* 88.625rem */
-        left: 730px; /* 45.625rem */
+        left: calc(50% - -10px); /* 45.625rem */
     }
     #desktop .sleeve-striped-t-shirt-container {
         position: absolute;
         top: 1418px; /* 88.625rem */
-        left: 1045px; /* 65.3125rem */
+        left: calc(50% - -324px); /* 65.3125rem */
     }
     #desktop .wrapper {
         position: absolute;
         top: 1480px; /* 92.5rem */
-        left: 100px; /* 6.25rem */
+        left: calc(50% - 624px); /* 6.25rem */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -436,7 +436,7 @@
     right: calc(50% - 76px);
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.4);
-}
+    }
     #desktop .frame {
     width: 58px;
     border-radius: 62px;
@@ -454,35 +454,35 @@
     box-sizing: border-box;
     font-size: 12px;
     color: #ff3333;
-}
+    }
     #desktop .parent1 {
     position: absolute;
     top: 1480px;
-    left: 1045px;
+    left: calc(50% - -324px);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
     font-size: 24px;
-}
+    }
     #desktop .parent2 {
     position: absolute;
     top: 1480px;
-    left: 415px;
+    left: calc(50% - 306px);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
     font-size: 24px;
-}
+    }
     #desktop .b8 {
     position: absolute;
     top: 1480px;
-    left: 730px;
+    left: calc(50% - -6px);
     font-size: 24px;
-}
+    }
     #desktop .wrapper2 {
     position: absolute;
     top: 2219px;
@@ -499,7 +499,7 @@
     box-sizing: border-box;
     font-size: 12px;
     color: #ff3333;
-}
+    }
     #desktop .frame-parent5 {
     position: absolute;
     top: 2190px;
@@ -510,7 +510,7 @@
     justify-content: flex-start;
     gap: 13px;
     font-size: 14px;
-}
+    }
     #desktop .frame-parent6 {
     position: absolute;
     top: 2190px;
@@ -521,7 +521,7 @@
     justify-content: flex-start;
     gap: 13px;
     font-size: 14px;
-}
+    }
     #desktop .frame-parent7 {
     position: absolute;
     top: 2190px;
@@ -532,7 +532,7 @@
     justify-content: flex-start;
     gap: 13px;
     font-size: 14px;
-}
+    }
     #desktop .frame-parent8 {
     position: absolute;
     top: 2190px;
@@ -543,7 +543,7 @@
     justify-content: flex-start;
     gap: 13px;
     font-size: 14px;
-}
+    }
     #desktop .homepage-child3 {
     position: absolute;
     top: 1841px;
@@ -553,7 +553,7 @@
     height: 298px;
     overflow: hidden;
     object-fit: cover;
-}
+    }
     #desktop .homepage-child4 {
     position: absolute;
     top: 1841px;
@@ -563,7 +563,7 @@
     height: 298px;
     overflow: hidden;
     object-fit: cover;
-}
+    }
     #desktop .homepage-child5 {
     position: absolute;
     top: 1841px;
@@ -573,7 +573,7 @@
     height: 298px;
     overflow: hidden;
     object-fit: cover;
-}
+    }
     #desktop .image-10-icon {
     position: absolute;
     top: -40px;
@@ -581,22 +581,22 @@
     width: 252px;
     height: 378px;
     object-fit: cover;
-}
+    }
     #desktop .image-10-wrapper {
     position: absolute;
     top: 1841px;
-    left: 1045px;
+    left: calc(50% - -320px);
     border-radius: 20px;
     background-color: #f0eeed;
     width: 295px;
     height: 298px;
     overflow: hidden;
-}
+    }   
     #desktop .vertical-striped-shirt-container {
     position: absolute;
     top: 2155px;
     left: calc(50% - 620px);
-}
+    }
     #desktop .courage-graphic-t-shirt-container {
     position: absolute;
     top: 2155px;
@@ -651,7 +651,7 @@
     #desktop .view-all-wrapper {
     position: absolute;
     top: 1548px;
-    left: calc(50% - 85px);
+    left: calc(50% - 105px);
     border-radius: 62px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
@@ -668,7 +668,7 @@
     #desktop .view-all-container {
     position: absolute;
     top: 2285px;
-    left: calc(50% - 135px);
+    left: calc(50% - 105px);
     border-radius: 62px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
@@ -776,7 +776,7 @@
     height: 289px;
     overflow: hidden;
 }
-.browse-by-dress-style-parent {
+    .browse-by-dress-style-parent {
     position: absolute;
     top: 2417px;
     left: calc(50% - 621px);
@@ -787,30 +787,30 @@
     overflow: hidden;
     font-size: 36px;
 }
-#desktop .frame-child35 {
+    #desktop .frame-child35 {
     width: 22.6px;
     position: relative;
     height: 22.6px;
 }
-#desktop .star-parent6 {
+    #desktop .star-parent6 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 6.5px;
 }
-.sarah-m {
+    .sarah-m {
     position: relative;
     line-height: 22px;
 }
-#desktop .im-blown-away {
+    #desktop .im-blown-away {
     align-self: stretch;
     position: relative;
     font-size: 16px;
     line-height: 22px;
     color: rgba(0, 0, 0, 0.6);
 }
-#desktop .frame-parent10 {
+    #desktop .frame-parent10 {
     align-self: stretch;
     display: flex;
     flex-direction: column;
@@ -818,7 +818,7 @@
     justify-content: flex-start;
     gap: 12px;
 }
-#desktop .frame-parent9 {
+    #desktop .frame-parent9 {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -826,16 +826,16 @@
     justify-content: flex-start;
     gap: 15px;
 }
-#desktop .frame-wrapper {
+    #desktop .frame-wrapper {
     flex: 1;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
 }
-#desktop .homepage-inner1 {
+    #desktop .homepage-inner1 {
     position: absolute;
-    top: 3455px;
+    top: 3460px;
     left: calc(50% - 630px);
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -850,7 +850,7 @@
     align-content: flex-start;
     padding: 28px 32px;
 }
-.homepage-inner2 {
+    .homepage-inner2 {
     position: absolute;
     top: 3461px;
     left: calc(50% - 1050px);
@@ -868,7 +868,7 @@
     align-content: flex-start;
     padding: 28px 32px;
 }
-.homepage-inner3 {
+    .homepage-inner3 {
     position: absolute;
     top: 3461px;
     left: calc(50% - 210px);
@@ -885,7 +885,7 @@
     align-content: flex-start;
     padding: 28px 32px;
 }
-.homepage-inner4 {
+    .homepage-inner4 {
     position: absolute;
     top: 3461px;
     right: calc(50% - 610px);
@@ -902,7 +902,7 @@
     align-content: flex-start;
     padding: 28px 32px;
 }
-.homepage-inner5 {
+    .homepage-inner5 {
     position: absolute;
     top: 3461px;
     right: calc(50% - 1030px);
@@ -920,25 +920,29 @@
     align-content: flex-start;
     padding: 28px 32px;
 }
-.arrow-right-bold-1-icon {
+    .arrow-right-bold-1-icon {
     position: absolute;
     top: 3397px;
     right: calc(50% - 620px);
-    width: 24px;
-    height: 24px;
+    width: auto;
+    height: auto;
+    background-color: transparent;
     overflow: hidden;
     object-fit: contain;
+    border: transparent;
 }
-.arrow-left-bold-2-icon {
+    .arrow-left-bold-2-icon {
     position: absolute;
     top: 3397px;
-    right: calc(50% - 590px);
-    width: 24px;
-    height: 24px;
+    right: calc(50% - 570px);
+    width: auto;
+    height: auto;
+    background-color: transparent;
     overflow: hidden;
     object-fit: contain;
+    border: transparent;
 }
-#desktop .group-child {
+    #desktop .group-child {
     position: absolute;
     top: 90px;
     left: calc(50% - 720.5px);
@@ -946,7 +950,7 @@
     width: 1441px;
     height: 499px;
 }
-#desktop .group-item {
+    #desktop .group-item {
     position: absolute;
     top: 457px;
     left: calc(50% - 619.5px);
@@ -955,7 +959,7 @@
     width: 1241px;
     height: 1px;
 }
-#desktop .stay-upto-date {
+    #desktop .stay-upto-date {
     width: 551px;
     position: relative;
     line-height: 45px;
@@ -963,7 +967,7 @@
     height: 94px;
     flex-shrink: 0;
 }
-#desktop .frame-parent20 {
+    #desktop .frame-parent20 {
     width: 349px;
     border-radius: 23px;
     background-color: black;
@@ -976,7 +980,7 @@
     box-sizing: border-box;
     gap: 12px;
 }
-#desktop .subscribe-to-newsletter-wrapper {
+    #desktop .subscribe-to-newsletter-wrapper {
     width: 349px;
     border-radius: 62px;
     background-color: #fff;
@@ -989,7 +993,7 @@
     box-sizing: border-box;
     color: #000;
 }
-#desktop .frame-parent19 {
+    #desktop .frame-parent19 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -999,7 +1003,7 @@
     color: rgba(0, 0, 0, 0.4);
     font-family: Satoshi;
 }
-#desktop .stay-upto-date-about-our-lates-parent {
+    #desktop .stay-upto-date-about-our-lates-parent {
     position: absolute;
     top: 0px;
     left: calc(50% - 620px);
@@ -1015,7 +1019,7 @@
     box-sizing: border-box;
     font-family: 'Integral CF';
 }
-#desktop .we-have-clothes {
+    #desktop .we-have-clothes {
     width: 248px;
     position: relative;
     font-size: 14px;
@@ -1024,7 +1028,7 @@
     color: rgba(0, 0, 0, 0.6);
     display: inline-block;
 }
-#desktop .shopco-group {
+    #desktop .shopco-group {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1032,12 +1036,12 @@
     gap: 25px;
 }
 
-#desktop .social {
+    #desktop .social {
     width: 148px;
     position: relative;
     height: 28px;
 }
-#desktop .frame-parent22 {
+    #desktop .frame-parent22 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1046,40 +1050,40 @@
     font-size: 33.45px;
     font-family: 'Integral CF';
 }
-#desktop .help-menu {
+    #desktop .help-menu {
     position: relative;
     letter-spacing: 3px;
     line-height: 18px;
     text-transform: uppercase;
     font-weight: 500;
 }
-#desktop .about {
+    #desktop .about {
     margin: 0;
     white-space: pre-wrap;
 }
-#desktop .blank-line {
+    #desktop .blank-line {
     margin: 0;
 }
-#desktop .about-features-works-container {
+    #desktop .about-features-works-container {
     position: relative;
     line-height: 19px;
     color: rgba(0, 0, 0, 0.6);
 }
-#desktop .help-menu-parent {
+    #desktop .help-menu-parent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 26px;
 }
-#desktop .about-features-works-container2 {
+    #desktop .about-features-works-container2 {
     width: 149px;
     position: relative;
     line-height: 19px;
     color: rgba(0, 0, 0, 0.6);
     display: inline-block;
 }
-#desktop .frame-parent21 {
+    #desktop .frame-parent21 {
     position: absolute;
     top: 230px;
     left: 101px;
@@ -1091,13 +1095,13 @@
     font-size: 16px;
     color: #000;
 }
-#desktop .badge-icon {
+    #desktop .badge-icon {
     width: 50px;
     position: relative;
     border-radius: 5.38px;
     height: 36px;
 }
-#desktop .badge-parent {
+    #desktop .badge-parent {
     position: absolute;
     top: 477px;
     left: 1060px;
@@ -1108,7 +1112,7 @@
     justify-content: flex-start;
     gap: 12px;
 }
-#desktop .all-rights-reserved {
+    #desktop .all-rights-reserved {
     position: absolute;
     top: 482px;
     left: 101px;
@@ -1116,14 +1120,14 @@
     color: rgba(0, 0, 0, 0.6);
     text-align: right;
 }
-#desktop .rectangle-parent {
+    #desktop .rectangle-parent {
     position: absolute;
     top: 0px;
     left: calc(50% - 720.5px);
     width: 1441px;
     height: 589px;
 }
-.group-div {
+    .group-div {
     position: absolute;
     top: 3781px;
     left: calc(50% - 721px);
@@ -1132,7 +1136,7 @@
     font-size: 40px;
     color: #fff;
 }
-.homepage {
+    .homepage {
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
@@ -1146,7 +1150,7 @@
     font-family: Satoshi;   
 }
 
-#desktop .newsletter-container {
+    #desktop .newsletter-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1155,7 +1159,7 @@
     max-width: 400px;
 }
 
-#desktop .input-wrapper {
+    #desktop .input-wrapper {
     display: flex;
     align-items: center;
     background: #f7f7f7;
@@ -1164,13 +1168,13 @@
     width: 100%;
 }
 
-#desktop .input-wrapper .icon {
+    #desktop .input-wrapper .icon {
     font-size: 18px;
     margin-right: 10px;
     color: gray;
 }
 
-#desktop .input-wrapper input {
+    #desktop .input-wrapper input {
     border: none;
     outline: none;
     background: transparent;
@@ -1178,7 +1182,7 @@
     font-size: 16px;
 }
 
-#desktop .subscribe-button {
+    #desktop .subscribe-button {
     background: white;
     color: black;
     font-size: 16px;
@@ -1190,11 +1194,11 @@
     transition: 0.3s;
 }
 
-#desktop .subscribe-button:hover {
+    #desktop .subscribe-button:hover {
     background: #333;
 }
 
-.popup {
+    .popup {
     display: none;
     position: fixed;
     z-index: 1;
@@ -1207,7 +1211,7 @@
     background-color: rgba(0,0,0,0.4);
 }
 
-.popup-content {
+    .popup-content {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
@@ -1218,16 +1222,17 @@
     border-radius: 10px;
 }
 
-.close {
+    .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+    .close:hover,
+    .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
+
