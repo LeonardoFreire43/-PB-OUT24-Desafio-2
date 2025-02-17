@@ -1,5 +1,5 @@
 function validateEmail(email: string): boolean {
-    const re = /^[^\s@]+@[^\s@]+\.(com|net|org|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum)$/;
+    const re = /^[^\s@]+@((gmail|hotmail|outlook|yahoo|icloud|live|aol|msn|protonmail)\.com|[a-zA-Z0-9.-]+\.(gov|edu|mil|org|net|com|br|gov\.br|edu\.br))$/i;
     return re.test(email);
 }
 

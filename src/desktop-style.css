@@ -701,10 +701,8 @@
 }
     #desktop .image-11-icon {
     position: absolute;
-    top: -122px;
-    left: -347px;
-    width: 973px;
-    height: 649px;
+    width: auto;
+    height: auto;
     object-fit: contain;
 }
     #desktop .casual {
@@ -724,10 +722,8 @@
 }
     #desktop .image-14-icon {
     position: absolute;
-    top: -148px;
-    left: 53px;
-    width: 452px;
-    height: 677px;
+    width: auto;
+    height: auto;
     object-fit: cover;
 }
     #desktop .image-14-parent {
@@ -742,10 +738,8 @@
 }
     #desktop .image-13-icon {
     position: absolute;
-    top: -13px;
-    left: calc(50% - 400px);
-    width: 900px;
-    height: 600px;
+    width: auto;
+    height: auto;
     object-fit: cover;
 }
     #desktop .image-13-parent {
@@ -760,10 +754,8 @@
 }
     #desktop .image-12-icon {
     position: absolute;
-    top: -163px;
-    left: 42px;
-    width: 770px;
-    height: 616px;
+    width: auto;
+    height: auto;
     object-fit: cover;
 }
     #desktop .image-12-parent {
