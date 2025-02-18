@@ -1085,7 +1085,7 @@
     #desktop .subscribe-button:hover {
     background: #333;
 }
-    .popup {
+.popup {
     display: none;
     position: fixed;
     z-index: 1;
@@ -1097,7 +1097,8 @@
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
 }
-    .popup-content {
+
+.popup-content {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
@@ -1107,14 +1108,16 @@
     text-align: center;
     border-radius: 10px;
 }
-    .close {
+
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-    .close:hover,
-    .close:focus {
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -1144,12 +1147,16 @@
     width: calc(500px * 6 + 30px * 5); 
 }
 
+.carousel-desktop-nav{
+    border: none;
+    position: absolute;
+}
+
 .prev, .next {
     position: absolute;
     top: 85%;
+    background-color: transparent;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
     border: none;
     padding: 10px;
     cursor: pointer;

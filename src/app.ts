@@ -61,7 +61,7 @@ window.addEventListener('click', (event) => {
 // carrossel desktop
 
 let currentIndex: number = 0;
-const itemsPerPage: number = 3; // Número de itens por "página"
+const itemsPerPage: number = 3;
 const items: NodeListOf<HTMLElement> = document.querySelectorAll(
     '.carousel-track .homepage-inner1, .carousel-track .homepage-inner2, .carousel-track .homepage-inner3, .carousel-track .homepage-inner4, .carousel-track .homepage-inner5, .carousel-track .homepage-inner6'
 );
@@ -106,7 +106,6 @@ initializeCarousel();
 
 
 // carrossel mobile
-
 document.addEventListener('DOMContentLoaded', () => {
     const track = document.querySelector('.carousel-track-mobile') as HTMLElement;
     const prevButton = document.querySelector('.prev-mobile') as HTMLButtonElement;
@@ -121,8 +120,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
 
     function updateCarousel() {
-        const itemWidth = items[0].offsetWidth; // Pega a largura do item
-        const offset = -(currentIndex * itemWidth); // Move um item por vez
+        const itemWidth = items[0].offsetWidth; 
+        const offset = -(currentIndex * itemWidth); 
         track.style.transform = `translateX(${offset}px)`;
     }
 
@@ -130,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentIndex < items.length - 1) {
             currentIndex++;
         } else {
-            currentIndex = 0; // Volta para o primeiro (loop)
+            currentIndex = 0; 
         }
         updateCarousel();
     });
@@ -139,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentIndex > 0) {
             currentIndex--;
         } else {
-            currentIndex = items.length - 1; // Vai para o último (loop)
+            currentIndex = items.length - 1; 
         }
         updateCarousel();
     });

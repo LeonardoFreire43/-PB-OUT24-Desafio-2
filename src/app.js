@@ -53,7 +53,7 @@ window.addEventListener('click', function (event) {
 });
 // carrossel desktop
 var currentIndex = 0;
-var itemsPerPage = 3; // Número de itens por "página"
+var itemsPerPage = 3;
 var items = document.querySelectorAll('.carousel-track .homepage-inner1, .carousel-track .homepage-inner2, .carousel-track .homepage-inner3, .carousel-track .homepage-inner4, .carousel-track .homepage-inner5, .carousel-track .homepage-inner6');
 var totalItems = items.length;
 var track = document.querySelector('.carousel-track');
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     var currentIndex = 0;
     function updateCarousel() {
-        var itemWidth = items[0].offsetWidth + parseInt(getComputedStyle(items[0]).marginRight);
+        var itemWidth = items[0].offsetWidth;
         var offset = -(currentIndex * itemWidth);
         track.style.transform = "translateX(".concat(offset, "px)");
     }
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
             currentIndex++;
         }
         else {
-            currentIndex = 0; // Loop infinito
+            currentIndex = 0;
         }
         updateCarousel();
     });
