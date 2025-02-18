@@ -835,11 +835,11 @@
     
     #desktop .group-child {
     position: absolute;
-    top: 90px;
+    top: -20px;
     left: calc(50% - 720.5px);
     background-color: #f0f0f0;
     width: 1441px;
-    height: 499px;
+    height: 650px;
 }
     #desktop .group-item {
     position: absolute;
@@ -896,7 +896,7 @@
 }
     #desktop .stay-upto-date-about-our-lates-parent {
     position: absolute;
-    top: 0px;
+    top: -100px;
     left: calc(50% - 620px);
     border-radius: 20px;
     background-color: #000;
@@ -976,8 +976,8 @@
 }
     #desktop .frame-parent21 {
     position: absolute;
-    top: 230px;
-    left: 101px;
+    top: 130px;
+    left: calc(50% - 610px);
     width: 1240px;
     display: flex;
     flex-direction: row;
@@ -994,8 +994,8 @@
 }
     #desktop .badge-parent {
     position: absolute;
-    top: 477px;
-    left: 1060px;
+    top: 380px;
+    left: calc(50% - -350px);
     width: 40px;
     display: flex;
     flex-direction: row;
@@ -1005,7 +1005,7 @@
 }
     #desktop .all-rights-reserved {
     position: absolute;
-    top: 482px;
+    top: 380px;
     left: 101px;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
@@ -1192,4 +1192,14 @@
 #desktop .homepage-inner3,
 #desktop .homepage-inner6{
     visibility: hidden;
+}
+
+#desktop .line-div2 {
+    top: 350px;
+    width: 1240px;
+    position: absolute;
+    right: calc(50% - 620px);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 1px;
 }
