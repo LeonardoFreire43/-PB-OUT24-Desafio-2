@@ -104,3 +104,45 @@ function initializeCarousel() {
 
 initializeCarousel();
 
+
+// carrossel mobile
+
+document.addEventListener('DOMContentLoaded', () => {
+    const track = document.querySelector('.carousel-track-mobile') as HTMLElement;
+    const prevButton = document.querySelector('.prev-mobile') as HTMLButtonElement;
+    const nextButton = document.querySelector('.next-mobile') as HTMLButtonElement;
+    const items = document.querySelectorAll('.carousel-track-mobile > div') as NodeListOf<HTMLElement>;
+
+    if (!track || !prevButton || !nextButton || items.length === 0) {
+        console.error('Erro: elementos do carrossel não encontrados.');
+        return;
+    }
+
+    let currentIndex = 0;
+
+    function updateCarousel() {
+        const itemWidth = items[0].offsetWidth; // Pega a largura do item
+        const offset = -(currentIndex * itemWidth); // Move um item por vez
+        track.style.transform = `translateX(${offset}px)`;
+    }
+
+    nextButton.addEventListener('click', () => {
+        if (currentIndex < items.length - 1) {
+            currentIndex++;
+        } else {
+            currentIndex = 0; // Volta para o primeiro (loop)
+        }
+        updateCarousel();
+    });
+
+    prevButton.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+        } else {
+            currentIndex = items.length - 1; // Vai para o último (loop)
+        }
+        updateCarousel();
+    });
+
+    updateCarousel();
+});

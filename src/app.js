@@ -89,3 +89,39 @@ function initializeCarousel() {
     updateCarouselPosition();
 }
 initializeCarousel();
+// carrossel mobile
+document.addEventListener('DOMContentLoaded', function () {
+    var track = document.querySelector('.carousel-track-mobile');
+    var prevButton = document.querySelector('.prev-mobile');
+    var nextButton = document.querySelector('.next-mobile');
+    var items = document.querySelectorAll('.carousel-track-mobile > div');
+    if (!track || !prevButton || !nextButton || items.length === 0) {
+        console.error('Erro: elementos do carrossel não encontrados.');
+        return;
+    }
+    var currentIndex = 0;
+    function updateCarousel() {
+        var itemWidth = items[0].offsetWidth + parseInt(getComputedStyle(items[0]).marginRight);
+        var offset = -(currentIndex * itemWidth);
+        track.style.transform = "translateX(".concat(offset, "px)");
+    }
+    nextButton.addEventListener('click', function () {
+        if (currentIndex < items.length - 1) {
+            currentIndex++;
+        }
+        else {
+            currentIndex = 0; // Loop infinito
+        }
+        updateCarousel();
+    });
+    prevButton.addEventListener('click', function () {
+        if (currentIndex > 0) {
+            currentIndex--;
+        }
+        else {
+            currentIndex = items.length - 1;
+        }
+        updateCarousel();
+    });
+    updateCarousel();
+});
