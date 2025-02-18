@@ -51,3 +51,41 @@ window.addEventListener('click', function (event) {
         mobilePopup.style.display = 'none';
     }
 });
+// carrossel desktop
+var currentIndex = 0;
+var itemsPerPage = 3; // Número de itens por "página"
+var items = document.querySelectorAll('.carousel-track .homepage-inner1, .carousel-track .homepage-inner2, .carousel-track .homepage-inner3, .carousel-track .homepage-inner4, .carousel-track .homepage-inner5, .carousel-track .homepage-inner6');
+var totalItems = items.length;
+var track = document.querySelector('.carousel-track');
+var nextButton = document.querySelector('.next');
+var prevButton = document.querySelector('.prev');
+if (track && nextButton && prevButton) {
+    nextButton.addEventListener('click', function () {
+        if (currentIndex + itemsPerPage < totalItems) {
+            currentIndex += itemsPerPage;
+        }
+        else {
+            currentIndex = 0;
+        }
+        updateCarouselPosition();
+    });
+    prevButton.addEventListener('click', function () {
+        if (currentIndex - itemsPerPage >= 0) {
+            currentIndex -= itemsPerPage;
+        }
+        else {
+            currentIndex = totalItems - itemsPerPage;
+        }
+        updateCarouselPosition();
+    });
+}
+function updateCarouselPosition() {
+    if (track) {
+        var itemWidthWithMargin = 500 + 30;
+        track.style.transform = "translateX(-".concat(currentIndex * itemWidthWithMargin, "px)");
+    }
+}
+function initializeCarousel() {
+    updateCarouselPosition();
+}
+initializeCarousel();

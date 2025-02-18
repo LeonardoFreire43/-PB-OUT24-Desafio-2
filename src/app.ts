@@ -57,3 +57,50 @@ window.addEventListener('click', (event) => {
         mobilePopup.style.display = 'none';
     }
 });
+
+// carrossel desktop
+
+let currentIndex: number = 0;
+const itemsPerPage: number = 3; // Número de itens por "página"
+const items: NodeListOf<HTMLElement> = document.querySelectorAll(
+    '.carousel-track .homepage-inner1, .carousel-track .homepage-inner2, .carousel-track .homepage-inner3, .carousel-track .homepage-inner4, .carousel-track .homepage-inner5, .carousel-track .homepage-inner6'
+);
+const totalItems: number = items.length;
+const track: HTMLElement | null = document.querySelector('.carousel-track');
+
+const nextButton: HTMLElement | null = document.querySelector('.next');
+const prevButton: HTMLElement | null = document.querySelector('.prev');
+
+if (track && nextButton && prevButton) {
+    nextButton.addEventListener('click', () => {
+        if (currentIndex + itemsPerPage < totalItems) {
+            currentIndex += itemsPerPage;
+        } else {
+            currentIndex = 0; 
+        }
+        updateCarouselPosition();
+    });
+
+    prevButton.addEventListener('click', () => {
+        if (currentIndex - itemsPerPage >= 0) {
+            currentIndex -= itemsPerPage; 
+        } else {
+            currentIndex = totalItems - itemsPerPage; 
+        }
+        updateCarouselPosition();
+    });
+}
+
+function updateCarouselPosition() {
+    if (track) {
+        const itemWidthWithMargin = 500 + 30; 
+        track.style.transform = `translateX(-${currentIndex * itemWidthWithMargin}px)`;
+    }
+}
+
+function initializeCarousel() {
+    updateCarouselPosition(); 
+}
+
+initializeCarousel();
+
